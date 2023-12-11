@@ -5,7 +5,7 @@ import java.util.stream.*;
 public class Day1_Part1 {
 
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("input_day1.txt");
+        Path path = Paths.get("../input_day1.txt");
         Stream<String> lines = Files.lines(path);
         int sum = lines.mapToInt(line -> getNumber(line)).sum();
         System.out.println("Sum of calibration values: " + sum);

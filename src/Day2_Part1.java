@@ -4,7 +4,7 @@ import java.util.*;
 public class Day2_Part1 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File f = new File("input_day2.txt");
+        File f = new File("../input_day2.txt");
         Scanner scanner = new Scanner(f);
         int redCount = 12;
         int greenCount = 13;
